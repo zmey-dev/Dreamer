@@ -1,0 +1,40 @@
+## Money for Brains: Dreamers Laravel Assessment
+
+Welcome to the Dreamers assessment for this position. The first step is a bit of planning, and the last step is to get yourself a cold drink.
+
+## Story
+
+You are managing a worldwide syndicate, which would be unstoppable if only they were able to get any work done. The syndicate doesn't value their employees enough, and we are going to fix the problem.
+
+## Measure Twice, Cut Once
+
+The first task is essential, and oft overlooked as an important and difficult quality of advanced engineering. Spend some preliminary drawing board time, even if just a few minutes, to break this small assessment into smaller pieces, and estimate how long each will take you. Commit a CSV with that information as your first commit. Time yourself carefully. Update this file as time goes on, with a new column showing logged time so it can be compared to the initial guess. Even good engineers are bad at this sometimes, because of the notoriously unknowable nature of unknown unknowns. Again, we are looking at your process, and promise we will not be fazed by poor estimates.
+
+## Project
+
+Create a service that allows their employees to give reviews of the projects they're working on, their team members and manager. Create a simple laravel app that fulfils the requirements given the following:
+
+-   [ ] > The org has multiple teams. Each team is made up a manager and multiple associates
+-   [ ] > A team can be working on multiple projects at any point in time. Also multiple teams can collaborate on a project.
+-   [ ] > Executives in the company have access to all projects. Only this role can add users to the company, create projects, teams & assign users to teams/roles. They see all reviews and can delete if they wish but can't edit.
+-   [ ] > Managers or associates can take on a temporary internal advisory role on another Team's project
+-   [ ] > All users can delete/edit the reviews they made.
+-   [ ] > Associates can see reviews of their team's projects & themselves.
+-   [ ] > Managers can see reviews of themselves, their team members & their projects.
+-   [ ] > Internal advisors can see the project reviews. They can also leave a review.
+-   [ ] > Only executives can see the name of the reviewer
+
+Feel free to use any frontend framework you're comfortable with – or none at all.
+
+## Background Tasks and Approach
+
+There is no "right answer" to open ended projects like this. We are looking at your communication, approach to programming principles, and reliability.
+
+Rename this README to "instructions", and build a useful README allowing any user to run the project.
+This task will be running on Laravel, and MySQL.
+
+Keep the config as simple as possible Use DB seeders to populate the data.
+
+KISS principles for the design (keep it simple stupid).
+
+Godspeed!
